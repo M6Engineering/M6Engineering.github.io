@@ -3,11 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://m6engineering.github.io/categories/</loc>
+    <loc>https://m6engineering.github.io/posts/</loc>
+    <lastmod>2020-06-16T12:45:00+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://m6engineering.github.io/posts/initialupdate/</loc>
+    <lastmod>2020-06-16T12:45:00+10:00</lastmod>
   </url>
   
   <url>
     <loc>https://m6engineering.github.io/</loc>
+    <lastmod>2020-06-16T11:20:30+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://m6engineering.github.io/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://m6engineering.github.io/showcase/</loc>
+  </url>
+  
+  <url>
+    <loc>https://m6engineering.github.io/categories/</loc>
   </url>
   
   <url>
