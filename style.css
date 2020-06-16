@@ -2,3 +2,82 @@ h1.post-title {
     margin-top: 0px !important;
 
 }
+
+/* Container Wrapping 
+====================== */
+.ccontainer {
+	margin: auto;
+	padding: 5px;
+}
+/* Container Brekapoints */
+@media (min-width: 1700px) {
+	.ccontainer {
+		width: 1500px;
+	}
+}
+@media (min-width: 1240px) and (max-width: 1700px) {
+	.ccontainer {
+		width: 1100px;
+	}
+}
+@media (min-width: 900px) and (max-width: 1240px) {
+.ccontainer {
+		width: 850px;
+	}
+}
+
+/* Responsive Columns
+====================== */
+.col-12, .col-6, .col-4, .col-3, .col-2 {
+    float: left;
+    padding: 8px;
+}
+.col-12 {
+	width: 100%;
+}
+@media (min-width: 700px) {
+	.col-6 {
+		width: 50%;
+	}
+	.col-4 {
+        width: 33.33%;
+	}
+	.col-3 {
+		width: 25%;
+	}
+	.col-2 { 
+		width: 16.66%;
+	}
+}
+@media (max-width: 700px) {
+	.col-6, .col-4, .col-3 {
+		width: 100%;
+	}
+	.col-2 {
+		width: 50%;
+	}
+
+}
+
+
+
+.profile-image {
+    object-fit: cover;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+}
+
+.team_container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.team_container .team_text {
+    text-align: left;
+}
+.team_container h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
