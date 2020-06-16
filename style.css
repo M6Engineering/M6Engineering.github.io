@@ -85,3 +85,14 @@ h1.post-title {
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
+
+@media (min-width: 1100px) {
+    .landing_wrapper img {
+        width: 1100px !important;
+    }
+}
+
+.landing_wrapper img{
+    width: 100vw;
+}
