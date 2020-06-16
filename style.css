@@ -51,8 +51,12 @@ h1.post-title {
 }
 @media (max-width: 700px) {
 	.col-6, .col-4, .col-3 {
-		width: 100%;
-	}
+        width: 100%;
+        margin-top: 20px;
+    }
+    .col-6:first-child, .col-4:first-child, .col-3:first-child {
+        margin-top: 0px !important;
+    }
 	.col-2 {
 		width: 50%;
 	}
