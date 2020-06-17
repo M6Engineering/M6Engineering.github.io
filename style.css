@@ -87,9 +87,9 @@ h1.post-title {
 }
 
 
-@media (min-width: 1100px) {
+@media (min-width: 800px) {
     .landing_wrapper img {
-        width: 1100px !important;
+        width: 800px !important;
     }
 }
 
