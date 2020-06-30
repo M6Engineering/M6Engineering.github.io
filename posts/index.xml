@@ -6,17 +6,29 @@
     <description>Recent content in Posts on M6 Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jun 2020 12:45:00 +1000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2020 19:37:00 +1000</lastBuildDate>
     
 	<atom:link href="https://m6engineering.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Apply The Brakes!</title>
+      <link>https://m6engineering.github.io/posts/2020-06-30_apply_the_brakes/</link>
+      <pubDate>Tue, 30 Jun 2020 19:37:00 +1000</pubDate>
+      
+      <guid>https://m6engineering.github.io/posts/2020-06-30_apply_the_brakes/</guid>
+      <description>Today we hit our first key milestone - braking on the kart is now electronically controlled.
+We achieved this by attaching two high torque servo motors to the kart&amp;rsquo;s brake lever. Getting this system working took some extra testing, as we originally thought that one servo would generate enough power to properly apply the brake. However, this was not the case.
+One of our successful tests from this afternoon:
+Currently the servos are controlled by an RC receiver for ease of prototyping.</description>
+    </item>
+    
+    <item>
       <title>The Inception</title>
-      <link>https://m6engineering.github.io/posts/initialupdate/</link>
+      <link>https://m6engineering.github.io/posts/2020-06-16_the_inception/</link>
       <pubDate>Tue, 16 Jun 2020 12:45:00 +1000</pubDate>
       
-      <guid>https://m6engineering.github.io/posts/initialupdate/</guid>
+      <guid>https://m6engineering.github.io/posts/2020-06-16_the_inception/</guid>
       <description>We have embarked on the journey! After purchasing a go kart fitted with a KT100 from the staff at Brew Dog, we have started work fitting servos to allow for remote operation.
 The first step is converting the current kart into something we can control remotely. We will then utilise this as a base for the self driving platform.</description>
     </item>
