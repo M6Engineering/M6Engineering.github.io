@@ -6,15 +6,26 @@
     <description>Recent content in Posts on M6 Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jun 2020 19:37:00 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://m6engineering.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Steering System - Attempt 1</title>
+      <link>https://m6engineering.github.io/posts/2020-07-04_steering_system_attempt_1/</link>
+      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://m6engineering.github.io/posts/2020-07-04_steering_system_attempt_1/</guid>
+      <description>This weekend we attempted to build a servo steering system.
+The design consisted of two high torque servos (the same models used for the breaking) attached via zip-ties to clamps on the shaft connected to the wheels. The servos were driven by a Teensy. To steer in a certain direction, the servo on the opposite side would pull on the wheel shaft, causing the wheels to rotate.
+An image of the set up:</description>
+    </item>
+    
+    <item>
       <title>Apply The Brakes!</title>
       <link>https://m6engineering.github.io/posts/2020-06-30_apply_the_brakes/</link>
-      <pubDate>Tue, 30 Jun 2020 19:37:00 +1000</pubDate>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://m6engineering.github.io/posts/2020-06-30_apply_the_brakes/</guid>
       <description>Today we hit our first key milestone - braking on the kart is now electronically controlled.
@@ -26,7 +37,7 @@ Currently the servos are controlled by an RC receiver for ease of prototyping.</
     <item>
       <title>The Inception</title>
       <link>https://m6engineering.github.io/posts/2020-06-16_the_inception/</link>
-      <pubDate>Tue, 16 Jun 2020 12:45:00 +1000</pubDate>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://m6engineering.github.io/posts/2020-06-16_the_inception/</guid>
       <description>We have embarked on the journey! After purchasing a go kart fitted with a KT100 from the staff at Brew Dog, we have started work fitting servos to allow for remote operation.
