@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Steering System Success</title>
+      <link>https://m6engineering.github.io/posts/2020-07-16_steering_system_success/</link>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://m6engineering.github.io/posts/2020-07-16_steering_system_success/</guid>
+      <description>Today we successfully completed a working prototype of the steering system. The system is build from a windscreen wiper motor and a strip of aluminium to mount to the steering shaft.
+Currently the motor is being powered with 12V from a car battery. Both the wiper motor and the car battery were bought at a local wreckers.
+This design is the third iteration of prototypes for a steering system. Initially, a servo system was trialled (see Steering System Attempt 1) but this system was too weak.</description>
+    </item>
+    
+    <item>
       <title>Steering System - Attempt 1</title>
       <link>https://m6engineering.github.io/posts/2020-07-04_steering_system_attempt_1/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>

@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
   
-    <title>Steering System - Attempt 1 :: M6 Engineering</title>
+    <title>Steering System Success :: M6 Engineering</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="description" content="This weekend we attempted to build a servo steering system.
-The design consisted of two high torque servos (the same models used for the breaking) attached via zip-ties to clamps on the shaft connected to the wheels. The servos were driven by a Teensy. To steer in a certain direction, the servo on the opposite side would pull on the wheel shaft, causing the wheels to rotate.
-An image of the set up:" />
+<meta name="description" content="Today we successfully completed a working prototype of the steering system. The system is build from a windscreen wiper motor and a strip of aluminium to mount to the steering shaft.
+Currently the motor is being powered with 12V from a car battery. Both the wiper motor and the car battery were bought at a local wreckers.
+This design is the third iteration of prototypes for a steering system. Initially, a servo system was trialled (see Steering System Attempt 1) but this system was too weak." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="https://m6engineering.github.io/posts/2020-07-04_steering_system_attempt_1/" />
+<link rel="canonical" href="https://m6engineering.github.io/posts/2020-07-16_steering_system_success/" />
 
 
 
@@ -40,10 +40,10 @@ An image of the set up:" />
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Steering System - Attempt 1 :: M6 Engineering">
-<meta property="og:description" content="This weekend we attempted to build a servo steering system..." />
-<meta property="og:url" content="https://m6engineering.github.io/posts/2020-07-04_steering_system_attempt_1/" />
-<meta property="og:site_name" content="Steering System - Attempt 1" />
+<meta property="og:title" content="Steering System Success :: M6 Engineering">
+<meta property="og:description" content="Today we successfully completed a working prototype of the steering system..." />
+<meta property="og:url" content="https://m6engineering.github.io/posts/2020-07-16_steering_system_success/" />
+<meta property="og:site_name" content="Steering System Success" />
 
   
     <meta property="og:image" content="https://m6engineering.github.io/m6logo.ico">
@@ -53,7 +53,7 @@ An image of the set up:" />
 <meta property="og:image:height" content="1024">
 
 
-  <meta property="article:published_time" content="2020-07-05 00:00:00 &#43;0000 UTC" />
+  <meta property="article:published_time" content="2020-07-16 00:00:00 &#43;0000 UTC" />
 
 
 
@@ -133,11 +133,11 @@ An image of the set up:" />
     
 <div class="post">
   <h1 class="post-title">
-    <a href="https://m6engineering.github.io/posts/2020-07-04_steering_system_attempt_1/">Steering System - Attempt 1</a></h1>
+    <a href="https://m6engineering.github.io/posts/2020-07-16_steering_system_success/">Steering System Success</a></h1>
   <div class="post-meta">
     
       <span class="post-date">
-        2020-07-05 
+        2020-07-16 
       </span>
     
     
@@ -154,18 +154,21 @@ An image of the set up:" />
   
 
   <div class="post-content"><div>
-        <p>This weekend we attempted to build a servo steering system.</p>
-<p><img src="testing_setup.jpg" alt="Testing Setup"></p>
-<p>The design consisted of two high torque servos (the same models used for the breaking) attached via zip-ties to clamps on
-the shaft connected to the wheels. The servos were driven by a Teensy. To steer in a certain direction, the servo on the
-opposite side would pull on the wheel shaft, causing the wheels to rotate.</p>
-<p>An image of the set up:</p>
-<p><img src="steering_closeup.jpg" alt="Steering Closeup"></p>
-<p>This system worked when the kart was up on the rack, however once the wheels were put on and the kart was put on the ground,
-the weight of the kart was too much for the servos and the kart could no longer turn.</p>
-<p>Unfortunately, due to the high amount of force required to turn when the kart is on the ground, this design is not viable.
-We are currently designing a new system using bike sprockets attached directly to the steering shaft. This design should
-have a much greater mechanical advantage and will allow us to use cheaper and more powerful DC motors, instead of servos.</p>
+        <p>Today we successfully completed a working prototype of the steering system. The
+system is build from a windscreen wiper motor and a strip of aluminium to mount
+to the steering shaft.</p>
+<p><img src="turn_left.gif" alt="Steering turning left"></p>
+<p><img src="turn_right.gif" alt="Steering turning right"></p>
+<p>Currently the motor is being powered with 12V from a car battery. Both the wiper
+motor and the car battery were bought at a local wreckers.</p>
+<p>This design is the third iteration of prototypes for a steering system.
+Initially, a servo system was trialled (see <a href="/posts/2020-07-04_steering_system_attempt_1/">Steering System Attempt 1</a>) but this system was too weak. We also tested using a bike sprocket attached to the shaft driven by various motors (including a washing machine motor - see below) but we still could not produce enough power to turn the kart.</p>
+<p><img src="washing_machine_extraction.jpg" alt="Extracting washing machine motor"></p>
+<p><img src="washing_machine_motor_test.jpg" alt="Testing washing machine motor"></p>
+<p>Another design being worked on in parallel with the wiper motor was a 3D printed gearbox, to be driven by a smaller DC motor. This design is yet to be tested:</p>
+<p><img src="gearbox.jpg" alt="Gearbox"></p>
+<p><img src="gears.jpg" alt="Gears"></p>
+<p>Now that we have electronic controls for all three major systems (brakes, throttle &amp; steering), work will begin on designing electronics to control these systems as well as some software development.</p>
 
       </div></div>
 
@@ -178,17 +181,10 @@ have a much greater mechanical advantage and will allow us to use cheaper and mo
     </div>
     <div class="pagination__buttons">
         
-        <span class="button previous">
-            <a href="https://m6engineering.github.io/posts/2020-07-16_steering_system_success/">
-                <span class="button__icon">←</span>
-                <span class="button__text">Steering System Success</span>
-            </a>
-        </span>
-        
         
         <span class="button next">
-            <a href="https://m6engineering.github.io/posts/2020-06-30_apply_the_brakes/">
-                <span class="button__text">Apply The Brakes!</span>
+            <a href="https://m6engineering.github.io/posts/2020-07-04_steering_system_attempt_1/">
+                <span class="button__text">Steering System - Attempt 1</span>
                 <span class="button__icon">→</span>
             </a>
         </span>
